@@ -58,7 +58,6 @@ exports.oioi = (function() {
 
 })()
 
-// console.log(oioi);
 // oioi.subscribe('hifive', function (data) {
 // 	console.log(data);
 // });
