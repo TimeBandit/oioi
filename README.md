@@ -5,14 +5,14 @@ oioi (pronounced oy-oy) is a tiny pubsub library implementation
 
 To use:
 ```
+const oioi = require('oioi');
+
 oioi.subscribe('hifive', function (data) {
 	console.log(data);
 });
-
 oioi.subscribe('hifive', function (data) {
-	console.log(data + ' gotcha');
+	console.log(data+'gotcha');
 });
-
 oioi.subscribe('random', function (data) {
 	console.log(data);
 })
