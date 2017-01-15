@@ -10,7 +10,7 @@ oioi.subscribe('hifive', function (data) {
 });
 
 oioi.subscribe('hifive', function (data) {
-	console.log(data+'gotcha');
+	console.log(data +' gotcha');
 });
 
 oioi.subscribe('random', function (data) {
@@ -18,5 +18,9 @@ oioi.subscribe('random', function (data) {
 })
 
 oioi.publish('hifive', 'raiseyourhands');
+=> raiseyourhands
+=> raiseyourhandsgotcha
+
 oioi.publish('random', Math.round(Math.random()*10));
+=> a random whole number between 1 & 10
 ```

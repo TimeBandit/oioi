@@ -30,7 +30,6 @@ exports.oioi = (function() {
       token: token,
       callback: callback
     });
-    console.log(topics);
     return token;
   }
 
