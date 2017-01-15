@@ -1,6 +1,6 @@
 'use strict';
 
-exports.oioi = (function() {
+const oioi = (function() {
   let topics = {};
   let subId = -1;
 
@@ -56,6 +56,8 @@ exports.oioi = (function() {
   }
 
 })()
+
+module.exports = oioi;
 
 // oioi.subscribe('hifive', function (data) {
 // 	console.log(data);
